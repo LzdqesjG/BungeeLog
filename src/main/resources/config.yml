@@ -1,0 +1,44 @@
+# BungeeLog 配置文件
+
+# 日志格式
+log-format: "[%time%] [%level%] %message%"
+
+# 是否启用控制台镜像输出到文件
+enable-console-mirror: true
+
+# 是否按天分割日志文件
+daily-rolling: true
+
+# 日志级别
+log-level: "ALL"
+
+# 是否记录玩家连接事件
+log-player-connections: true
+
+# 是否记录玩家聊天消息
+log-player-chat: true
+
+# 是否记录命令执行
+log-commands: true
+
+# 是否记录服务器切换事件
+log-server-switches: true
+
+# 是否记录Ping请求
+log-pings: false
+
+# 最大日志文件数量
+max-log-files: 30
+
+# 日志编码
+encoding: "UTF-8"
+
+# ===== WebAPI 配置 =====
+# 是否启用 WebSocket API
+webapi: false
+
+# WebSocket 服务器地址和端口
+waaddress: "0.0.0.0:25796"
+
+# WebSocket 连接密码
+wapassword: "bungeelog"
