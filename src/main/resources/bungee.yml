@@ -1,0 +1,22 @@
+name: BungeeLog
+version: '4.0'
+main: org.lzdqesj.bungeeLog.BungeeLog
+author: Lzdqesj
+description: A plugin that directs BungeeCord to log output to a file.
+
+commands:
+  bungeelog:
+    description: BungeeLog主命令
+    aliases: [bungeelog]
+    usage: |
+      /team reload - 重载插件
+      /team status - 查看状态
+      /team help - 显示帮助
+
+permissions:
+  bungeelog.admin:
+    description: BungeeLog 管理权限
+    default: op
+  bungeelog.webapi:
+    description: WebAPI 访问权限
+    default: op
